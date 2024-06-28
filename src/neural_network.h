@@ -7,10 +7,10 @@
 using Matrix = Eigen::MatrixXf;
 using Vector = Eigen::VectorXf;
 
-struct Layer {
-    Matrix weights;
-    Vector biases;
-};
+// struct Layer {
+//     Matrix weights;
+//     Vector biases;
+// };
 
 class NeuralNetwork {
 public:

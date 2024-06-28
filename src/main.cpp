@@ -14,7 +14,7 @@ const std::string PREDICTIONS_FILENAME = "results.csv";
 
 std::vector<Vector> loadTensors(const std::string& directory) {
     std::vector<Vector> tensors;
-    for (const auto& entry : std::filesystem::directory_iterator(directory)) {
+    for (const auto& entry : std::__fs::filesystem::directory_iterator(directory)) {
         std::ifstream file(entry.path());
         std::string line;
         std::getline(file, line);
