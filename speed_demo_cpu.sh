@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: speed_cpu <relative_path_to_weights_and_biases.txt> <relative_path_to_input_tensor_directory>"
+    echo "Usage: speed_cpu weights_and_biases.txt tensors"
     exit 1
 fi
 
