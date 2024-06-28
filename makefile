@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -I.
+CXXFLAGS = -std=c++11 -Wall -I/usr/local/include/eigen3
 LDFLAGS = -lstdc++fs
 
 SRC = src/main.cpp src/loader.cpp src/neural_network.cpp
